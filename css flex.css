@@ -1,0 +1,41 @@
+.container {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 600px;
+}
+
+.block1 {
+    border: 1px solid;
+    flex-basis: 50%;
+    background-color: aquamarine;
+}
+
+.block2 {
+    border: 1px solid;
+    flex-basis: 50%;
+    background-color: aquamarine;
+}
+@media screen {max-width: 320px;
+    .container {
+        flex-wrap: wrap;
+        height: 50%;
+        width: 50%;
+    }
+}
+
+@media screen {max-width: 320px;
+    .block1 {
+        background-color: red;
+        flex-basis: 50%;
+    }
+}
+
+@media screen {max-width: 320px;
+    .block2 {
+        background-color: yellow;
+        flex-basis: 50%;
+    }
